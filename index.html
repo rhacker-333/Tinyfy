@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Compressor</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <h2>File Compressor</h2>
+        <input type="file" id="fileInput" />
+        <button onclick="compressFile()">Compress</button>
+        <div id="result"></div>
+        <div class="progress-bar-container">
+            <div id="progressBar" class="progress-bar"></div>
+        </div>
+        <p id="progressText">Compression Progress: <span id="progressPercent">0</span>%</p>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
